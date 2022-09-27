@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.Header{
+    background-color: black;
+    position:relative;
+    height: 80px;
+}
+.Header > img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+#btn1{
+    float: right;
+    padding: 10px;
+    position: relative;
+    top: -40px;
+    right: 10px;
+    border-radius: 15px;
+    font-size: large;
+    width: 150px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+}
+#link1{
+    color: white;
+    top: 15px;
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 600;
+}
+#text1{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.nav{
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-weight: 500;
+}
+#nava{
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: 1em;
+    padding: 5px 5px ;
+    font-family: "Gill Sans", sans-serif;
+}
+#nava:hover{
+    text-decoration: underline;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.menu{
+    margin-top: 20px;
+}
+#menu-a{
+    margin-left:30px;
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 2em;
+    color: black;
+    font-weight:700;
+}
+#menu-a:hover{
+    text-decoration: underline;
+}
+#menu-product{
+    margin: 5px;
+    height: 250px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    margin-bottom: 100px;
+}
+#product{
+    height: 50px;
+    width: 50px;
+    margin-left:20px;
+}
+#product-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#product-img-link{
+    cursor: none;
+}
+#product-price{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+#product-price:hover{
+    text-decoration: underline;
+}
+.bar{
+    margin-top: 50px;
+}
+.NavDown{
+    background-color: black;
+    text-align: center;
+}
+.sites{
+    color: white;
+    font-weight:600;
+    padding: 20px;
+    text-align: left;
+
+}
+#nav-down-link{
+    text-decoration: none;
+    margin: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: 500;
+}
+#nav-down-link:hover{
+    text-decoration: underline;
+}
+#copy-r-p{
+    color: white;
+}
+.SocialMedia-Links{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+#img-telegram{
+    width:60px;
+    height:60px;
+}
+#img-instagram{
+    width:40px;
+    height:40px;
+    top: -10px;
+    margin-left: 10px;
+    position: relative;
+}
+#victor{
+    padding: 2px;
+    border-bottom: 2px solid white;
+    
+}
+.Tools{
+    color: white;
+    font-weight:600;
+    padding: 20px;
+    margin-top: -180px;
+    margin-left: 200px;
+    text-align: left;
+}
+#nav-down-link-tools{
+    text-decoration: none;
+    margin: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: 500;
+}
+#nav-down-link-tools:hover{
+    text-decoration: underline;
+}
+.Help_Contact{
+    color: white;
+    font-weight:600;
+    padding: 20px;
+    margin-top: -180px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+#nav-down-link-contact{
+    text-decoration: none;
+    margin: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: 500;
+}
+#nav-down-link-contact:hover{
+    text-decoration: underline;
+}
+#nav-down-contact-text{
+    margin-left:40px;
+    font-size: 15px;
+}
+.About_us{
+    color: white;
+    font-weight:600;
+    padding: 20px;
+    margin-top: -240px;
+    margin-left: 780px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+#nav-down-about-text{
+    margin: 20px;
+    color: white;
+    font-weight: 500;
+}
+#nav-down-about-text2{
+    margin: 20px;
+    color:white;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.create{
+    text-align: center;
+}
+#create-p{
+    margin-top: 20px;
+}
+.create-lebel{
+    margin-top: -10px;
+    margin-left: -300px;
+}
+#data-name{
+    font-size: 1.2em;
+}
+#data-name-in{
+    border-radius: 20px;
+    padding: 10px;
+    width: 410px;
+    margin-left: 310px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+#catagory{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+#data-select{
+    padding: 10px;
+    border-radius: 20px;
+    width: 440px;
+    margin-left: 310px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+#btn-submit{
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    background-color: white;
+}
+#chat{
+    width: 500px;
+    height: 500px;
+}
+#img-image{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#create-img-file{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px;
+}
